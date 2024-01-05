@@ -1,6 +1,6 @@
 ﻿var folder = Folder.selectDialog();
 var document = app.activeDocument;
-
+//test//
 // Log function
 // $.writeIn()
 
