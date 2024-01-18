@@ -47,9 +47,9 @@ function saveToRes(scaleTo, index) {
             var file = new File(logoFolder + "/" + name + color + size + ".png");
 
             var options = new ExportOptionsPNG24();
-            options.antiAliasing = true;
+            //options.antiAliasing = true;
             options.transparency = true;
-            options.artBoardClipping = true;
+            //options.artBoardClipping = true;
             options.verticalScale = scaleTo;
             options.horizontalScale = scaleTo;
 
