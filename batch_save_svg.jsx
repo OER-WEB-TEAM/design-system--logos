@@ -35,7 +35,7 @@ function saveToSVG() {
             var file = new File(logoFolder + "/" + name + color + ".svg");
 
             var options = new ExportOptionsSVG();
-            options.compressed = true;
+            // options.compressed = true; // produces svgz (g-zip)
             options.embedRasterImages = false;
             options.fontType = SVGFontType.OUTLINEFONT;
             options.saveMultipleArtboards = false;
