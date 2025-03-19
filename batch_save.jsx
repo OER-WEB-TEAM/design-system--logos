@@ -36,7 +36,7 @@ function saveToRes(scaleTo, index) {
             colorLayer.visible = true;
 
             // Generate folder name from selected folder and .ai filename (no extension)
-            // E.g.: outputs/data-sharing--logo-notagline
+            // E.g.: outputs/data-sharing--logo/notagline
             var logoFolder = new Folder(folder + "/" + fileName + "/" + versionName);
             if (!logoFolder.exists) { logoFolder.create(); }
 
